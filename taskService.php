@@ -23,3 +23,20 @@ function addTask(string $description): void {
 
     echo "✅ Task added successfully: {$description}\n";
 }
+
+/**
+ * Update a task description
+ */
+function updateTask(int $id, string $newDescription): void {
+    $tasks = loadTasks();
+    foreach ($tasks as &$task) {
+        if ($task['id'] === $id) {
+            $task['description'] = $newDescription;
+            $task['updatedAt'] = date('Y-m-d H:i:s');
+            saveTasks($tasks);
+            echo "✏️ Task [{$id}] updated successfully\n";
+            return;
+        }
+    }
+    echo "⚠️ Task with ID {$id} not found\n";
+}
