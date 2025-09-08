@@ -40,3 +40,19 @@ function updateTask(int $id, string $newDescription): void {
     }
     echo "⚠️ Task with ID {$id} not found\n";
 }
+
+/**
+ * Delete a task
+ */
+function deleteTask(int $id): void {
+    $tasks = loadTasks();
+    $newTasks = array_filter($tasks, fn($task) => $task['id'] !== $id);
+
+    if (count($tasks) === count($newTasks)) {
+        echo "⚠️ Task with ID {$id} not found\n";
+        return;
+    }
+
+    saveTasks(array_values($newTasks));
+    echo "🗑️ Task [{$id}] deleted successfully\n";
+}
