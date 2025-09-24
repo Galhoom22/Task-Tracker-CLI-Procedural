@@ -60,6 +60,10 @@ switch ($command) {
         require 'commands/list.php';
         break;
 
+    case 'done':
+        require 'commands/done.php';
+        break;
+
     // We can add cases for other commands later.
     // e.g., update, delete, mark-done
 
