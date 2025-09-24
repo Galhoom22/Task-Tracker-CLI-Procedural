@@ -57,8 +57,7 @@ switch ($command) {
         break;
 
     case 'list':
-        echo "Executing the 'list' command...\n";
-        // Logic for listing tasks will go here.
+        require 'commands/list.php';
         break;
 
     // We can add cases for other commands later.
