@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "description": "Buy milk and bread",
+        "status": "todo",
+        "createdAt": "2025-09-25T00:41:25+02:00",
+        "updatedAt": "2025-09-25T00:41:25+02:00"
+    },
+    {
+        "id": 2,
+        "description": "Finish PHP project report",
+        "status": "todo",
+        "createdAt": "2025-09-25T00:42:37+02:00",
+        "updatedAt": "2025-09-25T00:42:37+02:00"
+    }
+]

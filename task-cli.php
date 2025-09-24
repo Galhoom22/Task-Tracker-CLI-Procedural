@@ -1,7 +1,5 @@
 <?php
 
-// task-cli.php
-
 // Define a constant for the tasks file path. This is better than using a string everywhere.
 define('TASKS_FILE', 'tasks.json');
 
@@ -55,8 +53,7 @@ $command = $argv[1];
 // Use a switch statement to route to the correct logic based on the command.
 switch ($command) {
     case 'add':
-        echo "Executing the 'add' command...\n";
-        // Logic for adding a task will go here.
+        require 'commands/add.php';
         break;
 
     case 'list':
