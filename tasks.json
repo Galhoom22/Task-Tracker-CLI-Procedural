@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "description": "Buy milk and bread",
+        "description": "Buy fresh milk and whole wheat bread",
         "status": "done",
         "createdAt": "2025-09-25T00:41:25+02:00",
-        "updatedAt": "2025-09-25T01:39:45+02:00"
+        "updatedAt": "2025-09-25T02:25:48+02:00"
     }
 ]

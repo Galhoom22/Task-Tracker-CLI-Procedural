@@ -68,6 +68,10 @@ switch ($command) {
         require 'commands/delete.php';
         break;
 
+    case 'update':
+        require 'commands/update.php';
+        break;
+
     // We can add cases for other commands later.
     // e.g., update, delete, mark-done
 
