@@ -10,9 +10,9 @@ if (empty($tasks)) {
 }
 
 // 3. If there are tasks, display them in a formatted table.
-echo "==================================================\n";
+echo "========================================================\n";
 echo "ID   | Status          | Description\n";
-echo "==================================================\n";
+echo "========================================================\n";
 
 foreach ($tasks as $task) {
     // printf is used for formatted output to align columns nicely.
@@ -22,4 +22,4 @@ foreach ($tasks as $task) {
     printf("%-4d | %-15s | %s\n", $task['id'], $task['status'], $task['description']);
 }
 
-echo "==================================================\n";
+echo "========================================================\n";

@@ -2,8 +2,36 @@
     {
         "id": 1,
         "description": "Buy fresh milk and whole wheat bread",
-        "status": "done",
+        "status": "in-progress",
         "createdAt": "2025-09-25T00:41:25+02:00",
-        "updatedAt": "2025-09-25T02:25:48+02:00"
+        "updatedAt": "2025-09-25T02:39:43+02:00"
+    },
+    {
+        "id": 2,
+        "description": "A new task after deletion",
+        "status": "in-progress",
+        "createdAt": "2025-09-25T02:40:14+02:00",
+        "updatedAt": "2025-09-25T02:44:54+02:00"
+    },
+    {
+        "id": 3,
+        "description": "A new task after deletion2",
+        "status": "todo",
+        "createdAt": "2025-09-25T02:40:17+02:00",
+        "updatedAt": "2025-09-25T02:40:17+02:00"
+    },
+    {
+        "id": 4,
+        "description": "A new task after deletion3",
+        "status": "todo",
+        "createdAt": "2025-09-25T02:40:20+02:00",
+        "updatedAt": "2025-09-25T02:40:20+02:00"
+    },
+    {
+        "id": 5,
+        "description": "A new task after deletion4",
+        "status": "todo",
+        "createdAt": "2025-09-25T02:40:22+02:00",
+        "updatedAt": "2025-09-25T02:40:22+02:00"
     }
 ]

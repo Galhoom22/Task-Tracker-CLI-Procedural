@@ -72,6 +72,10 @@ switch ($command) {
         require 'commands/update.php';
         break;
 
+    case 'progress':
+        require 'commands/progress.php';
+        break;
+
     // We can add cases for other commands later.
     // e.g., update, delete, mark-done
 
