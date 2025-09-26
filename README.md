@@ -52,4 +52,4 @@ Paradigm: Procedural PHP
 Storage: File-based (tasks.json)
 
 ## 🔗 Project URL
-[Task Tracker CLI Procedural](https://github.com/Galhoom22/Task-Tracker-CLI-Procedural)
+[Task Tracker CLI Procedural](https://roadmap.sh/projects/task-tracker)
